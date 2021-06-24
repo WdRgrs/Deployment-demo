@@ -1,0 +1,16 @@
+{
+  "name": "deployment-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",  //changed to refelct the location of the index.js file (added server/)
+  "scripts": {
+    "start": "node server/index.js", //added to tell node what to do 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
