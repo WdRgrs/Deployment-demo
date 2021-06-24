@@ -2,9 +2,9 @@
   "name": "deployment-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",  //changed to refelct the location of the index.js file (added server/)
+  "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js", //added to tell node what to do 
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

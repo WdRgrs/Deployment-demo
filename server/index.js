@@ -17,3 +17,6 @@ app.listen(port, function() {
 })
 
 //http://localhost:5050 - the path to get to the main page
+//in the Json file:
+//"start": "node server/index.js", //added to tell node what to do 
+//"main": "server/index.js",  //changed to refelct the location of the index.js file (added server/)
